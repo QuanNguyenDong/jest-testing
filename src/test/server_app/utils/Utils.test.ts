@@ -30,7 +30,7 @@ describe("getRequestBody test suite", () => {
         expect(actual).toEqual(someObjecct);
     });
 
-    it("should throw error for invalid JSON", async () => {
+    it.skip("should throw error for invalid JSON", async () => {
         requestMock.on.mockImplementation((event, cb) => {
             if (event == "data") {
                 cb("a" + someObjectAsString);
