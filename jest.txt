@@ -1,0 +1,10 @@
+npx ts-jest config:init
+
+structure of a properly written unit test
+    AAA principles:
+        - arrange
+        - act
+        - assert
+
+    Setup
+    Teardown
